@@ -1,0 +1,74 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ * Modified by Lidl Digital International GmbH & Co. KG
+ * Handbaked with love by the CAKE-Team (https://cake.schwarz/)
+ * Source-code from https://www.secrz.de/bitbucket/projects/CAKE/repos/phoenix/
+ */
+
+/* Importing only some styles of the CAKE-Framework (simply outcomment the parts you need) */
+
+@import "~@cake-hub/web-css_framework/scss/functions";
+@import "~@cake-hub/web-css_framework/scss/variables-root";
+@import "~@cake-hub/web-css_framework/themes/Lidl/scss/variables-theme";
+@import "./variables";
+@import "~@cake-hub/web-css_framework/scss/variables";
+@import "~@cake-hub/web-css_framework/scss/mixins";
+@import "~@cake-hub/web-css_framework/scss/root";
+@import "~@cake-hub/web-css_framework/scss/reboot";
+@import "~@cake-hub/web-css_framework/scss/typography-font-face";
+@import "~@cake-hub/web-css_framework/scss/typography";
+@import "~@cake-hub/web-css_framework/scss/image";
+@import "~@cake-hub/web-css_framework/scss/code";
+@import "~@cake-hub/web-css_framework/scss/grid";
+@import "~@cake-hub/web-css_framework/scss/table";
+@import "~@cake-hub/web-css_framework/scss/form";
+@import "~@cake-hub/web-css_framework/scss/button";
+@import "~@cake-hub/web-css_framework/scss/transition";
+@import "~@cake-hub/web-css_framework/scss/dropdown";
+@import "~@cake-hub/web-css_framework/scss/button-group";
+@import "~@cake-hub/web-css_framework/scss/input-group";
+@import "~@cake-hub/web-css_framework/scss/custom-form";
+@import "~@cake-hub/web-css_framework/scss/nav";
+@import "~@cake-hub/web-css_framework/scss/navbar";
+@import "~@cake-hub/web-css_framework/scss/card";
+@import "~@cake-hub/web-css_framework/scss/breadcrumb";
+@import "~@cake-hub/web-css_framework/scss/pagination";
+@import "~@cake-hub/web-css_framework/scss/badge";
+@import "~@cake-hub/web-css_framework/scss/jumbotron";
+@import "~@cake-hub/web-css_framework/scss/alert";
+@import "~@cake-hub/web-css_framework/scss/progress";
+@import "~@cake-hub/web-css_framework/scss/media";
+@import "~@cake-hub/web-css_framework/scss/list-group";
+@import "~@cake-hub/web-css_framework/scss/close";
+@import "~@cake-hub/web-css_framework/scss/toast";
+@import "~@cake-hub/web-css_framework/scss/modal";
+@import "~@cake-hub/web-css_framework/scss/tooltip";
+@import "~@cake-hub/web-css_framework/scss/carousel";
+@import "~@cake-hub/web-css_framework/scss/spinners";
+@import "~@cake-hub/web-css_framework/scss/utilities";
+
+// 3rd party for CAKE components
+@import "~tiny-slider/src/tiny-slider.scss";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+
+@import "~@cake-hub/web-css_framework/scss/icon";
+@import "~@cake-hub/web-css_framework/scss/accordion";
+@import "~@cake-hub/web-css_framework/scss/banner";
+@import "~@cake-hub/web-css_framework/scss/cookie-alert";
+@import "~@cake-hub/web-css_framework/scss/footer";
+@import "~@cake-hub/web-css_framework/scss/header";
+@import "~@cake-hub/web-css_framework/scss/popover";
+@import "~@cake-hub/web-css_framework/scss/pricebox";
+@import "~@cake-hub/web-css_framework/scss/product-tile";
+@import "~@cake-hub/web-css_framework/scss/ribbon";
+@import "~@cake-hub/web-css_framework/scss/tab";
+@import "~@cake-hub/web-css_framework/scss/teaser";
+@import "~@cake-hub/web-css_framework/scss/theme-slider"; // required: tiny-slider
+@import "~@cake-hub/web-css_framework/scss/to-top";
+@import "~@cake-hub/web-css_framework/scss/trustbar";
+@import "~@cake-hub/web-css_framework/scss/section-head";
+@import "~@cake-hub/web-css_framework/scss/print";

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  cake_boilerplate:
+    container_name: cake_boilerplate
+    env_file:
+      - .env
+    image: node:10
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports: ['5000:5000']
+    expose: ['5000']
+    volumes:
+        - ./:/var/www/html
+        - ./node_modules:/var/www/html/node_modules/
+        - ./_logs:/root/.npm/_logs/
+    tty: true
+    command: |
+      /bin/sh -c "cd /var/www/html/ && npm install && npm start"

@@ -1,0 +1,3 @@
+###proxy-settings
+proxy=http://PROXY-URL.GOES:HERE/
+https-proxy=http://PROXY-URL.GOES:HERE/
